@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <div class="container mw-100">
+            <h1 id="home" class="p-3 linha">Robô 5TA</h1>
+            <nav id="menu" class="float-right">
+                <ul>
+                    <li><a href="#nossoRobo">Nosso robô</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#rodape">Rede sociais</a></li>
+                    <li><a href="equipe.html">Equipe</a></li>
+                    <li><a href="parceria.html">Parcerias</a></li>
+                    <li><a href="imagens.html">Imagens</a></li>
+                </ul>
+            </nav>
+    </header>
+    <section class="textos p-5 w-100 mt-5">
+        <p class="text-left" id="nossoRobo">O robô 5TA é um robô feito para batalhar contra outros robôs. Tendo isso em mente, ele foi construido de modo a desempenhar características especificas para lutas.
+            O 5TA contém uma base feita de madeira onde encontramos o hardware, as rodas e os respectivos motores. No topo do robô temos a arma, junto com seu motor e algumas conexões.
+            Além disso, o 5TA possui uma placa mão com um microcontrolador Arduino, sendo possivel programá-lo de várias maneiras.
+            </p>
+        <div class="text-center">
+            <img class="img-fluid w-50 p-1 mt-2" src="./imagens/robo1.jpg" alt="Imagem ilustrativa de uma luta entre robôs">
+        </div>
+
+        <div class="p-2 mt-5">
+            <img class="img-fluid w-25 imagemDireita p-4" src="./imagens/robolateral.jpg" alt="Imagem ilustrativa do 5TA">
+            <p class="mt-5 text-right">A arma será uma haste articulada em ponto central, que será conectada ao shield e ativada a partir de comando de programação. A perfuração decorrerá de uma agulha acoplada na ponta desta haste. Faremos a conexão utilizando bumpers, quando desligada, a arma se contrai em um ângulo diagonal, o mesmo vale para quando está ativada, seu tempo de ativação é curto, e sua precisão, por consequência, é maior.</p>
+        </div>
+
+        <div id="contato" class="faleConosco mt-5">
+            <h2 class="bg-danger rounded p-2">Fale conosco!</h2>
+            <form>
+                <div class="form-group">
+                    <label class="mt-3">Endereço de email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nome@exemplo.com">
+                </div>
+                <div class="form-group">
+                    <label></label>Selecione uma opcão</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Elogios</option>
+                        <option>Reclamações</option>
+                        <option>Suporte</option>
+                        <option>Parcerias e afins</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Expresse a sua opinião</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <button type="button" class="btn btn-danger mt-3">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- rodape da pagina -->
+    <footer class="rodape" id="rodape">
+        <div class="float-right p-2">
+            <a href="https://www.instagram.com/?hl=pt-br" target="blank"><span
+                    class="fab fa-instagram redes-sociais text-danger"></span></a>
+            <a href="https://twitter.com/home" target="blank"><span
+                    class="fab fa-twitter redes-sociais text-danger"></span></a>
+            <a href="https://www.youtube.com/" target="blank"><span
+                    class="fab fa-youtube redes-sociais text-danger"></span></a>
+            <a href="https://discord.com/" target="blank"><span
+                    class="fab fa-discord redes-sociais text-danger"></span></a>
+        </div>
+    </footer>
+    </div>
+
+</body>
+
+</html>
